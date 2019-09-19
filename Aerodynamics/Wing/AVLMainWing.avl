@@ -1,0 +1,39 @@
+ACMainWing
+0.0				| Mach
+0 0 0.0			| iYsym  iZsym  Zsym
+2880.0 20.0 144.0			| Sref   Cref   Bref
+0.0 0.0 0.0			| Xref   Yref   Zref
+0.0				| CDp  (optional)
+#==============================================================
+#
+SURFACE
+ACMainWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+-5.0 0.0 0.0   20.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_TC\S1223_TC.dat"
+#-----------------------
+SECTION
+-5.0 45.0 0.0   20.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_TC\S1223_TC.dat"
+CONTROL
+Aileron  1.0  0.7  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+-5.0 72.0 0.0   20.0  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223_TC\S1223_TC.dat"
+CONTROL
+Aileron  1.0  0.7  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
