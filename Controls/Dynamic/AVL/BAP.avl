@@ -1,0 +1,92 @@
+Regular 2019: The Fellowship of the Wing
+0.0			| Mach
+0 0 0.0		| iYsym  iZsym  Zsym
+3300.0 23.1952747671 143.5		| Sref   Cref   Bref
+26.973017685 0.0 12.0105		| Xref   Yref   Zref
+0.0			| CDp  (optional)
+#==============================================================
+#
+SURFACE
+Horizontal Tail
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+2.1478318206
+
+INDEX
+2
+#-----------------------
+SECTION
+76.5876010184 0.0 13.823   13.5416666667  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\NACA0012\NACA0012_inv.dat"
+CONTROL
+Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+76.5876010184 24.0 13.823   13.5416666667  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\NACA0012\NACA0012_inv.dat"
+CONTROL
+Elevator  1.0  0.5  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+ACMainWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+14.8006553237 0.0 8.698   24.142569187  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+#-----------------------
+SECTION
+14.8006553237 50.3958333333 8.698   24.142569187  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+CONTROL
+Aileron  1.0  0.7  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+14.8006553237 71.75 9.83265898514   16.4410896163  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\S1223_TC\S1223_TC.dat"
+CONTROL
+Aileron  1.0  0.7  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+Vertical Tail
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+ANGLE
+0.0
+
+INDEX
+3
+#-----------------------
+SECTION
+76.7370684463 0.0 15.323   12.943796955  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+78.3493945364 0.0 27.323   11.056203045  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\Users\dusti\Eclipse\workspace\Airfoils\NACA0012\NACA0012.dat"
+CONTROL
+Rudder  1.0  0.5  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
